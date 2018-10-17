@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Verdana", sans-serif;
+}
+
+body {
+  background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png");
+}
+
+h2{
+  font-size: 50px;
+  color: white;
+}
+
+header{
+  height: 100%;
+}
+
+#container {
+  margin: 20px;
+}
+
+#box-header {
+  background-color: #fff;
+  padding: 10px;
+  height: 100%;
+  position: relative;
+}
+
+#nature_img {
+  background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 250px;
+}
+
+.middle{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border: 2px solid white;
+  padding: 5px;
+}
+
+#box_menu{
+  height: 40px;
+  background-color: #504741;
+}
+
+.navbar{
+  height: 100%;
+  width: 53%;
+  line-height: 40px;
+  margin: 0 auto;
+}
+.border{
+  border-left: 1px solid lightgrey;
+}
+.item{
+  float: left;
+  color: lightgrey;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.item:hover{
+  background-color: black;
+
+}
+
+#containerBody{
+  width: 100%;
+  margin-top:30px;
+}
+
+.white{
+  background-color: #fff;
+}
+
+.left-side{
+  float: left;
+  width: 20%;
+  margin-right:20px;
+
+}
+.center{
+  float: left;
+  width: 48%;
+}
+.right-side{
+  float: right;
+  width: 29%;
+  margin-left:20px;
+}
+.content{
+  padding: 20px;
+}
+.center h2{
+  color: #000;
+}
+.inside{
+  margin-bottom: 20px;
+}
+.margin-top{
+  margin-top:10px;
+}
